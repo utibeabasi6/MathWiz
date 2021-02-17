@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+html, body{
+  scrollbar-base-color: #282c34;
+}
+
+
+.jumbotron {
+  background-color: #282c34;
+  padding: 5rem 10rem;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media screen and (max-width: 800px){
+  .jumbotron {
+    padding: 3rem 2rem;
+  }
+}
+
+.section{
+  padding: 3rem 1rem;
+}
+
+.icon{
+  font-size: 60px;
+}
+
